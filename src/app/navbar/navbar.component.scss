@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Poppins:wght@200&display=swap');
+  //   navbar responsive styles
+  @media (min-width: 1600px) {
+    .display-1 {
+      font-size: 10rem;
+    }
+  }
+  @media (max-width: 991px) {
+  .navbar-scroll {
+    background-color: rgba(0, 0, 0, 0.26);
+    border-bottom: 2px solid #000;
+  }
+  .navbar-scroll .navbar-brand,
+  .navbar-scroll .nav-link
+   {
+    color: #000 !important;
+  }         
+}
+// navbar styles
+.navbar-brand {
+  letter-spacing: 3px;
+  font-size: 2rem;
+  font-family: 'Comfortaa', cursive;;
+  color: #fff;
+}
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+// box-shadow of navbar
+.navbar-scroll {
+  box-shadow: none;
+  background-color: rgba(36, 34, 34, 0.938);
+}
+
+.display-1 {
+  font-weight: 500 !important;
+  letter-spacing: 40px;
+}
+
+
+
